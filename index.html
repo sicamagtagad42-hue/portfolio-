@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jessica Magtagad — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header with Home -->
+  <header class="site-header">
+    <div class="logo">JM</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero / Home Section — Photo on RIGHT -->
+  <section id="home" class="hero">
+    <div class="hero-wrapper">
+      <div class="hero-text">
+        <p class="greeting">✦ WELCOME ✦</p>
+        <h1>Jessica<br>Magtagad.</h1>
+        <p class="tagline">Growing • Learning • Building</p>
+        <p class="sub">IT Student — Cebu Eastern College — Cebu City, PH</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">View My Work ↗</a>
+          <a href="#contact" class="btn secondary">Let's Connect</a>
+        </div>
+      </div>
+      <div class="hero-picture">
+       <img src="images/profile.jpg" alt="Jessica Magtagad">
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <p class="section-label">01 / ABOUT ME</p>
+    <h2>Rooted in curiosity,<br>growing through code.</h2>
+    <div class="divider">● ● ●</div>
+    <p class="intro-text">
+      I'm Jessica — an IT student passionate about building clean, functional, and meaningful digital experiences.
+    </p>
+    <p>
+      Every line of code is a step forward. I love turning ideas into reality, whether it's structuring web pages, designing beautiful layouts, or organizing data systems. I'm here to learn, grow, and create something that matters.
+    </p>
+    <div class="facts">
+      <div class="fact">
+        <span class="fact-label">Full Name</span>
+        <span>Jessica Magtagad</span>
+      </div>
+      <div class="fact">
+        <span class="fact-label">Course</span>
+        <span>BS Information Technology</span>
+      </div>
+      <div class="fact">
+        <span class="fact-label">School</span>
+        <span>Cebu Eastern College</span>
+      </div>
+      <div class="fact">
+        <span class="fact-label">Focus</span>
+        <span>Web Dev • Databases</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <p class="section-label">02 / WHAT I GROW</p>
+    <h2>Skills & tools.</h2>
+    <p class="section-desc">Where I'm building my foundation.</p>
+    
+    <div class="skills-grid">
+      <div class="skill-card">
+        <span class="skill-icon">&lt;/&gt;</span>
+        <h3>HTML</h3>
+        <p>Structure • Semantics • Organization</p>
+        <div class="skill-bar"><div class="fill html"></div></div>
+      </div>
+      <div class="skill-card">
+        <span class="skill-icon">✳</span>
+        <h3>CSS</h3>
+        <p>Design • Layout • Responsive</p>
+        <div class="skill-bar"><div class="fill css"></div></div>
+      </div>
+      <div class="skill-card">
+        <span class="skill-icon">▤</span>
+        <h3>MySQL</h3>
+        <p>Databases • Queries • Management</p>
+        <div class="skill-bar"><div class="fill sql"></div></div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Work / Projects -->
+  <section id="work" class="section">
+    <p class="section-label">MY WORK</p>
+    <h2>Projects I've built.</h2>
+    <p class="section-desc">A collection of my work as an IT student.</p>
+    
+    <!-- Project 1: Magtagad Portfolio -->
+    <div class="project-card">
+      <img src="images/portfolio-preview.jpg" alt="Magtagad Portfolio Preview" class="project-img">
+      <div class="project-content">
+        <p class="project-category">Personal Branding / Web Development</p>
+        <h3>Magtagad Portfolio</h3>
+        <p>My personal portfolio website — built to showcase who I am, my skills, and my journey as an IT student.</p>
+        <div class="tech-stack">
+          <span class="tech">HTML5</span>
+          <span class="tech">CSS3</span>
+        </div>
+        <a href="#" class="project-link">View Project ↗</a>
+      </div>
+    </div>
+
+    <!-- Project 2: ReUseHub -->
+    <div class="project-card">
+      <img src="images/reusehub-preview.jpg" alt="ReUseHub Preview" class="project-img">
+      <div class="project-content">
+        <p class="project-category">Mobile Application</p>
+        <h3>ReUseHub</h3>
+        <p>ReUseHub mobile application — a platform designed with account registration, user authentication, and social login features.</p>
+        <div class="tech-stack">
+          <span class="tech">Mobile App</span>
+          <span class="tech">UI Design</span>
+        </div>
+        <a href="#" class="project-link">View Project ↗</a>
+      </div>
+    </div>
+  </section>
+
+      <!-- Contact -->
+  <section id="contact" class="section">
+    <p class="section-label">GET IN TOUCH</p>
+    <h2>Let's work together.</h2>
+    <p class="section-desc">Have a question or want to collaborate? Send me a message!</p>
+    
+    <form class="contact-form" action="mailto:sicamagtagad42@gmail.com" method="get" enctype="text/plain">
+      <div class="form-row">
+        <div class="form-group">
+          <label>Your name</label>
+          <input type="text" name="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+          <label>Your email</label>
+          <input type="email" name="email" placeholder="Enter your email address" required>
+        </div>
+      </div>
+      
+      <div class="form-group full-width">
+        <label>Your message</label>
+        <textarea name="message" placeholder="Write your message here..." required></textarea>
+      </div>
+      
+      <button type="submit" class="send-btn">Send me an email ↗</button>
+    </form>
+
+    <!-- Contact Links — Matches Your Reference ✨ -->
+    <div class="contact-footer">
+     <p class="contact-email"><span class="highlight-email">sicamagtagad42@gmail.com</span></p>
+      <a href="https://github.com/" target="_blank" class="github-link">GitHub profile ↗</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Jessica Magtagad</p>
+    <p class="small">Student Portfolio </p>
+  </footer>
+    <!-- Back to Top Button -->
+  <a href="#home" class="back-to-top">Back to top ↑</a>
+<script>
+// Show Back to Top Button on Scroll
+window.addEventListener('scroll', function () {
+  const btn = document.querySelector('.back-to-top');
+  if (window.scrollY > 300) {
+    btn.classList.add('visible');
+  } else {
+    btn.classList.remove('visible');
+  }
+});
+</script>
+</body>
+</html>
+
