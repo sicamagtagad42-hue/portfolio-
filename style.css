@@ -1,4 +1,4 @@
-/* ===== Jessica Magtagad — Portfolio Style ===== */
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap');
 
 :root {
@@ -30,7 +30,7 @@ body {
   min-height: 100vh;
 }
 
-/* ===== Soft Green Gradient Background ===== */
+
 body::before {
   content: "";
   position: fixed;
@@ -45,7 +45,7 @@ body::before {
   z-index: -1;
 }
 
-/* ===== Glass Card Style ===== */
+
 .glass-card {
   background: rgba(10, 10, 10, 0.85);
   border: 1px solid rgba(0, 255, 128, 0.15);
@@ -62,7 +62,7 @@ body::before {
   box-shadow: 0 12px 40px rgba(0, 255, 128, 0.1);
 }
 
-/* ===== Header & Navigation ===== */
+
 .site-header {
   display: flex;
   justify-content: space-between;
@@ -91,7 +91,7 @@ nav a.active {
   color: var(--green);
 }
 
-/* ===== Home Section ===== */
+
 #home {
   display: flex;
   align-items: center;
@@ -183,7 +183,7 @@ nav a.active {
   box-shadow: 0 0 25px rgba(0, 255, 128, 0.35);
 }
 
-/* ===== Sections General ===== */
+
 section {
   padding: 5rem 4rem;
 }
@@ -201,7 +201,7 @@ section {
   margin-bottom: 3rem;
 }
 
-/* ===== Projects Grid ===== */
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
@@ -258,7 +258,7 @@ section {
   font-weight: 500;
 }
 
-/* ===== Contact Section ===== */
+
 .contact-content {
   max-width: 600px;
 }
@@ -280,7 +280,7 @@ section {
   margin: 1rem 0;
 }
 
-/* ===== Back to Top ===== */
+
 .back-to-top {
   position: fixed;
   bottom: 2rem;
@@ -306,7 +306,7 @@ section {
   visibility: visible;
 }
 
-/* ===== Responsive ===== */
+
 @media (max-width: 900px) {
   #home {
     flex-direction: column-reverse;
@@ -331,7 +331,7 @@ section {
     padding: 3rem 1.5rem;
   }
 }
-/* ===== Contact Form Styles ===== */
+
 .contact-content input:focus,
 .contact-content textarea:focus {
   border-color: rgba(0, 255, 128, 0.5) !important;
